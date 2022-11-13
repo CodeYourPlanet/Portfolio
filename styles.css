@@ -9,7 +9,7 @@ body {
 
 a {
     text-decoration-line: none;
-    color: #3b322c;
+    color: #a8673c;
 }
 
 a:hover {
@@ -121,6 +121,24 @@ span {
     text-align: center;
 }
 
+#contact {
+    padding: 50px;
+}
+
+#titre_contact {
+    padding-bottom: 30px;
+}
+
+.contact_list {
+    padding-right: 5.1%;
+    padding-bottom: 15px;
+}
+
+.contact_list ul li a {
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid #a8673c;
+}
+
 footer {
     background-color: #dad0cb;
     padding: 30px;
@@ -135,7 +153,5 @@ footer {
     padding-top: 15px;
 }
 
-.contact_list {
-    padding-right: 5.1%;
-}
+
 
