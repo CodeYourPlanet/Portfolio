@@ -27,12 +27,13 @@ li {
 }
 
 .menu, .reseaux {
-    padding-right: 5.1%;
+    justify-content: center;
 }
 
 ul {
     display: flex;
     justify-content: center;
+    padding-right: 5.1%;
 }
 
 h1, .info{
@@ -130,13 +131,14 @@ span {
 }
 
 .contact_list {
-    padding-right: 5.1%;
+    display: flex;
+    justify-content: center;
     padding-bottom: 15px;
 }
 
 .contact_list ul li a {
     padding-bottom: 10px;
-    border-bottom: 0.1px solid #a8673c;
+    border-bottom: 1px solid #a8673c;
 }
 
 footer {
@@ -149,9 +151,19 @@ footer {
     justify-content: center;
 }
 
-.codeyourplanet, .photo_bg {
+.codeyourplanet, .photo_bg, button {
     padding-top: 15px;
 }
 
+.cv {
+    display: flex;
+    justify-content: center;
+}
 
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.1em;
+    border-bottom: 1px solid #a8673c;
+}
 
